@@ -1,0 +1,96 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.delete-icon {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.edit-icon{
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="radio"],
+button {
+  margin-top: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 20%;
+  padding: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.main-div{
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.radio-style{
+  display: flex;
+}
+.inactive-style {
+  margin-left: 10px;
+}
+h1{
+  text-align: center;
+}
+.sub-heading{
+  margin-top: 10px;
+    margin-bottom: 10px;
+    color: darkorange;
+}
+.sub-style{
+  display: flex;
+  margin-top: 10px;
+}
